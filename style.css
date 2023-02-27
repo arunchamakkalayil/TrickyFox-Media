@@ -8,10 +8,13 @@ header{
 
     height: 100vh;
     width: 100%;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.295)),url(/images/InShot_20230225_071504615.jpg) ;
+    
+    background-image:url(/images/png_20230227_061445_0000.png)  ;
     background-size: cover;
     background-position:top;
     background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.363) 0px 0px 60px 40px inset;
+    
  
     
 }
@@ -41,7 +44,7 @@ align-items: center;
 .navbar li::after {
     content: "";
     width: 0%;
-    height: 2px;
+    height: 1.5px;
     background: #ffffff;
     display: block;
     margin: auto;
@@ -138,5 +141,9 @@ align-items: center;
     .dropdown_menu{
         left:2rem;
         width: unset;
+    }
+
+    header{
+        background-image:url(/images/portrait\ 8\ copy\ 19.jpg)
     }
 }
