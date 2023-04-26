@@ -21,6 +21,9 @@ header{
  
     
 }
+.main-color{
+  color: rgb(202, 3, 103);
+}
 .title-head{
 color: #fff;
   margin: 0;
@@ -381,7 +384,7 @@ align-items: center;
 
 .heading {
   text-align: center;
-  color: #454343;
+color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   position: relative;
@@ -639,6 +642,7 @@ text-align: center;
    
    
   }
+
 }
 .testimonial4_slide h4 {
 color: #ffffff;
@@ -715,12 +719,36 @@ padding-bottom:50px;
 }
 
 .image-banner img{
-  
+  width: 200px;
+  border: 1px solid rgb(202, 3, 103) ;
+  padding: 5px;
+
+
  
   border-radius: 100%;
 }
+.image-banner{
+  width: 85%;
+ columns: 3;
+margin: auto;
+
+text-align: center;
 
 
+}
+.padding{
+  padding-top: 15px;
+}
+
+.hero-banner{
+  width: 85%;
+  margin: auto;
+  column-gap: 10px;
+}
+.hero-banner h1,p {
+  text-align: center;
+
+}
 
 
 
@@ -860,4 +888,10 @@ padding-bottom:50px;
    width: 100%;
    margin-left: 0;
  }
+ .image-banner{
+  columns: 1;
+ 
 }
+}
+
+
