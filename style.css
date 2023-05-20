@@ -150,7 +150,7 @@ align-items: center;
 
 }
 .dropdown_menu.open{
-    height: 260px;
+    height: 215px;
 }
 .dropdown_menu .action_btn{
     width: 100%;
@@ -312,7 +312,7 @@ align-items: center;
     margin-bottom: 10px;
    
   }
-  .grid-images {
+  .grid-image {
     display: inline-block;
  
     position: relative;
@@ -332,6 +332,7 @@ align-items: center;
     color: rgb(58, 57, 57);
   }
   .film-section{
+    display: flex;
     column-gap: 10px;
     columns: 3;
     width :90%;
@@ -372,7 +373,7 @@ align-items: center;
   .film-section{
    
      columns: 2;
-    
+    display: grid;
     
    }
    .image-section{
@@ -755,7 +756,7 @@ text-align: center;
 
 .contact{
   margin: auto;
-  width: 90%;
+  width: 100%;
   background:white;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
@@ -845,7 +846,7 @@ text-align: center;
   color: rgb(202, 3, 103);
   font-size: 15px;
   font-weight: 400;
- 
+ background-color: #fff;
   border-radius: 3px;
   padding: 8px 16px;
 
@@ -865,7 +866,7 @@ text-align: center;
 @media (max-width: 950px) {
   .contact{
     margin: auto;
-    width: 90%;
+    width: 100%;
 
   }
   .contact .content .right-side{

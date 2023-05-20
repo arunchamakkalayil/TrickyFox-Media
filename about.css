@@ -6,13 +6,14 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+
 }
 header{
 
-    height: 50vh;
+    height: 10vh;
     width: 100%;
     
-    background-image:url(/images/AGP_839\ 8.jpg)  ;
+    background-image:url(/images/pexels-egor-komarov-12606820.jpg)  ;
     background-size: cover;
     background-position:center;
  
@@ -25,14 +26,7 @@ header{
   color: rgb(202, 3, 103);
   font-size: 33px;
 }
-.title-head{
-color: #fff;
-text-align: center;
-padding-top: 80px;
 
-
-  
-}
 
 li{
     list-style: none;
@@ -126,16 +120,27 @@ align-items: center;
     
 
 }
-
+.title-container{
+  text-align: center;
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+.title-container h1{
+  font-size: 33px;
+}
+.title-container p{
+  font-size: 15px;
+}
 
 
 .dropdown_menu{
     position: absolute;
     right: 2rem;
-    top:60px;
+    top:70px;
     height: 0;
     width: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(0, 0, 0);
     backdrop-filter: blur(15px);
     border-radius: 18px;
     overflow: hidden;
@@ -206,7 +211,7 @@ align-items: center;
     }
 
     header{
-        background-image:url(/images/AGP_839\ 8.jpg)
+        background-image:url(/images/pexels-egor-komarov-12606820.jpg)
     }
 }
 
@@ -444,4 +449,62 @@ align-items: center;
 }
 .btns.open {
   bottom: 50px;
+}
+.about-us{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+ 
+}
+.about-us img{
+  flex: 0 50%;
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  padding: 75px;
+ 
+}
+.about-content{
+  padding: 35px;
+}
+.about-content h2{
+color:rgb(255, 4, 129) ;
+font-size: 24px;
+margin:  5px 0px;
+}
+.about-content h3{
+  color: rgb(88, 88, 88);
+  font-size: 18px;
+ margin-bottom: 20px;
+}
+.about-content p{
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px 0px;
+  text-align: justify;
+}
+@media (max-width:768px){
+.about-us{
+  flex-direction: column;
+
+}
+.about-us img{
+  flex: 0 100%;
+  max-width: 100%;
+  padding: 5px;
+  padding-top: 25px;
+}
+.about-content{
+  margin: 10px 0px;
+  padding:18px ;
+}
+}
+@media (max-width:1050px){
+  .about-us img{
+    flex: 0 100%;
+  max-width: 60%;
+  }
+  
 }
