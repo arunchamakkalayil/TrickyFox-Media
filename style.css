@@ -1000,3 +1000,13 @@ footer .copyright{
 .media-links .fa-phone{
   transform: rotate(90deg);
 }
+.form-btn{
+  border: 1px solid rgb(255, 0, 128);
+  padding:  10px 15px;
+  color: rgb(202, 3, 103);
+  border-radius: 8px;
+}
+.form-btn:hover{
+  background: rgb(255, 0, 128);
+  color: white;
+}
