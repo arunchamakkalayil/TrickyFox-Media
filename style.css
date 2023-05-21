@@ -1002,11 +1002,26 @@ footer .copyright{
 }
 .form-btn{
   border: 1px solid rgb(255, 0, 128);
-  padding:  10px 15px;
+  padding:  8px 20px;
   color: rgb(202, 3, 103);
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .form-btn:hover{
   background: rgb(255, 0, 128);
   color: white;
+}
+.form-btn{
+  border: 1px solid rgb(255, 0, 128);
+
+  color: rgb(202, 3, 103);
+  border-radius: 8px;
+  background: white;
+}
+.form-btn:hover{
+  background: rgb(255, 0, 128);
+  color: white;
+}
+#msg{
+  display: block;
+
 }
