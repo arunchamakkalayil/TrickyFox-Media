@@ -1026,12 +1026,12 @@ footer .copyright{
   display: block;
 
 }
-.float{
+.wapp-icon{
 	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
+	right:35px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -1039,6 +1039,23 @@ footer .copyright{
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+}
+.insta-icon{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:120px;
+	right:35px;
+	background-color:rgb(228, 64, 95);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.insta-icon:hover, .wapp-icon:hover{
+color: rgb(255, 255, 255);
 }
 
 .my-float{
