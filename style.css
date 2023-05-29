@@ -12,11 +12,11 @@ header{
     height: 100vh;
     width: 100%;
     
-    background-image:url(/images/png_20230227_061445_0000.png)  ;
+    background-image:url(/images/AGP_1686\ \(1\).jpg)  ;
     background-size: cover;
     background-position:top;
  
-    box-shadow: rgba(0, 0, 0, 0.308) 0px 0px 60px 40px inset;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 0px 60px 5px inset;
     
  
     
@@ -208,7 +208,7 @@ align-items: center;
     }
 
     header{
-        background-image:url(/images/portrait\ 8\ copy\ 19.jpg)
+        background-image:url(/images/1111.jpg)
     }
 }
 
