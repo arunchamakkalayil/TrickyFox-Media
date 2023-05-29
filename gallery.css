@@ -12,9 +12,9 @@ header{
     height: 50vh;
     width: 100%;
     
-    background-image:url(/images/AGP_839\ 8.jpg)  ;
+    background-image:url(/images/MNK_8882.jpg)  ;
     background-size: cover;
-    background-position:center;
+    background-position:top;
  
     box-shadow: rgba(0, 0, 0, 0.308) 0px 0px 60px 40px inset;
     
@@ -206,7 +206,7 @@ align-items: center;
     }
 
     header{
-        background-image:url(/images/AGP_839\ 8.jpg)
+        background-image:url(/images/MNK_8882.jpg)
     }
 }
 
