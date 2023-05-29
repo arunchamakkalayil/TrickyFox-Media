@@ -208,7 +208,8 @@ align-items: center;
     }
 
     header{
-        background-image:url(/images/1111.jpg)
+        background-image:url(/images/1111.jpg);
+        height: 80vh;
     }
 }
 
