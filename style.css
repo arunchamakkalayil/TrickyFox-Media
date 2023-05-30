@@ -1006,23 +1006,34 @@ footer .copyright{
   border: 1px solid rgb(255, 0, 128);
   padding:  8px 20px;
   color: rgb(202, 3, 103);
-  border-radius: 2px;
+  border-radius: 8px;
+ 
 }
 .form-btn:hover{
   background: rgb(255, 0, 128);
   color: white;
 }
-.form-btn{
+#load-more{
   border: 1px solid rgb(255, 0, 128);
-
+  padding:  10px 20px;
   color: rgb(202, 3, 103);
   border-radius: 8px;
-  background: white;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+ 
 }
-.form-btn:hover{
+#load-button {
+text-decoration: none;
+}
+
+#load-more:hover{
   background: rgb(255, 0, 128);
-  color: white;
+color: white;
 }
+
+
 #msg{
   display: block;
 
