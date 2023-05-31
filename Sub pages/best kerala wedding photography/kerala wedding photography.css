@@ -393,13 +393,19 @@ footer .copyright {
   margin-top: 16px;
 }
 .blog-container{
-  width: 60%;
+  width: 70%;
   margin: auto;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .blog-heading,.blog-content {
 
-  padding: 30px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
   
+}
+.blog-heading{
+  padding-top: 40px;
+}
+.blog-content{
+  padding-bottom: 40px;
 }
