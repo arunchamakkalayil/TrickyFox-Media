@@ -141,7 +141,7 @@ align-items: center;
     top:70px;
     height: 0;
     width: 300px;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.127);
     backdrop-filter: blur(15px);
     border-radius: 18px;
     overflow: hidden;
