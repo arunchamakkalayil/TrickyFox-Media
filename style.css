@@ -304,7 +304,7 @@ align-items: center;
     columns: 3;
     width :90%;
     margin: auto;
-    padding-top: 5rem;
+    padding-top: 2rem;
    
   }
   
@@ -339,7 +339,7 @@ align-items: center;
     columns: 3;
     width :90%;
     margin: auto;
-    padding-top: 5rem;
+    padding-top: 2rem;
    
    
     
@@ -1086,4 +1086,20 @@ color: rgb(255, 255, 255);
 
 .my-float{
 	margin-top:16px;
+}
+.content-alignment{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+@media (max-width:824px){
+  .content-alignment{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width:524px){
+  .content-alignment{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

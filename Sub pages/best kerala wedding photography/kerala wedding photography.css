@@ -9,10 +9,10 @@ body {
   width: 100%;
 }
 header {
-  height: 50vh;
+  height: 8vh;
   width: 100%;
 
-  background-image: url(/images/Artboard\ 1\ copy\ 7-2.jpg);
+  background-image: url(/images/pexels-egor-komarov-12606820.jpg);
   background-size: cover;
   background-position: center;
 
@@ -173,7 +173,7 @@ a {
   }
 
   header {
-    background-image: url(/images/Artboard\ 1\ copy\ 7-2.jpg);
+    background-image: url(/images/pexels-egor-komarov-12606820.jpg);
   }
 }
 
@@ -275,6 +275,7 @@ footer .copyright {
   .image-section {
     columns: 2;
   }
+
 }
 @media (max-width: 600px) {
   .image-section {
@@ -392,7 +393,7 @@ footer .copyright {
 .my-float {
   margin-top: 16px;
 }
-.blog-container{
+/* .blog-container{
   width: 70%;
   margin: auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -402,10 +403,101 @@ footer .copyright {
   padding-left: 70px;
   padding-right: 70px;
   
-}
+}*/
 .blog-heading{
-  padding-top: 40px;
+ font-size: 40px;
 }
+@media (max-width: 900px) {
+  .blog-heading{
+    font-size: 30px;
+   }
+}
+
 .blog-content{
-  padding-bottom: 40px;
+line-height: 1.5;
+font-size: 18px;
+
+
+
+} 
+
+.left-right .blog-image{
+  width: 100%;
+ padding:20px 0px;
 }
+.recent-posts{
+
+  text-align: center;
+  font-size: 23px;
+padding: 5px 70px;
+  width: 100%;
+  color: white;
+  letter-spacing: 2px;
+  background-color: rgb(202, 3, 103);
+}
+.recent-post h4{
+  font-size: 13px;
+  color: #474747;
+}
+@media (max-width: 600px) {
+  .blog-heading{
+    font-size: 25px;
+   }
+   .recent-posts{
+    font-size: 18px;
+   }
+   .recent-post h4{
+    font-size: 12px;
+   }
+}
+@media (max-width: 400px) {
+  .recent-posts{
+    font-size: 16px;
+   }
+   .blog-heading{
+    font-size: 20px;
+   }
+}
+@media (max-width: 330px) {
+  .recent-posts{
+    font-size: 14px;
+   }
+   .recent-post h4{
+    font-size: 11px;
+   }
+   .blog-content{
+    font-size: 16px;
+   }
+}
+
+.left-right{
+
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+
+
+
+
+}
+.container-blog{
+  width: 85%;
+  display: flex;
+  margin: auto;
+}
+.recent-post-container{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 25px;
+}
+.recent-post-image{
+  width: 25%;
+  padding-right: 10px;
+
+}
+.recent-post{
+  display: flex;
+}
+
