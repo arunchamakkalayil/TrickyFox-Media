@@ -442,14 +442,16 @@ color: #ffffff;
 }
 
 .testimonial {
-  height: 70vh;
+  height: 55vh;
   position: relative;
-  background: url(/images/Artboard\ 1\ copy\ 10.jpg);
+  background: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
   background-position: center;
       background-size: cover;
-      box-shadow: rgba(0, 0, 0, 0.575) 0px 0px 100px 300px inset;
+      background-color:rgb(202, 3, 103) ;
+      /* box-shadow: rgba(0, 0, 0, 0.575) 0px 0px 100px 300px inset; */
+      
     
 }
 #testimonial4 .carousel-inner:hover{
@@ -504,11 +506,13 @@ border-radius: 100%;
 }
 .testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
 height: 3px;
+
 }
 .testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
 background: #eeeeee;
 -webkit-border-radius: 0;
 border-radius: 0;
+
 }
 
 .testimonial4_control_button .carousel-control{
@@ -534,6 +538,7 @@ border-radius: 100%;
 box-shadow: none;
 -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
 transition: all 0.6s cubic-bezier(0.3,1,0,1);
+
 }
 .testimonial4_control_button .carousel-control.left{
 left: 7%;
@@ -544,10 +549,11 @@ right: auto;
 right: 7%;
 top: 50%;
 left: auto;
+
 }
 .testimonial4_control_button .carousel-control.left:hover,
 .testimonial4_control_button .carousel-control.right:hover{
-color: #000;
+color: #ffffff;
 background: #fff;
 border: 2px solid #fff;
 }
@@ -563,21 +569,13 @@ margin: 30px auto;
 text-align: center;
 position: relative;
 }
-.testimonial4_header h4{
-color: #ffffff;
-font-size: 40px;
-font-weight: 600;
-position: relative;
-letter-spacing: 1px;
-text-transform: uppercase;
-}
 
 .testimonial4_slide{
 top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-width: 70%;
+width: 85%;
 margin: auto;
 padding: 20px;
 position: relative;
@@ -628,7 +626,7 @@ text-align: center;
 }
 @media(max-width:500px){
   .testimonial4_slide p {
-    font-size: 11px;
+    font-size: 13px;
 
   }
   .heading{
@@ -649,7 +647,7 @@ text-align: center;
 
 }
 .testimonial4_slide h4 {
-color: #ffffff;
+color: rgb(255, 255, 255);
 font-size: 22px;
 }
 
@@ -659,6 +657,7 @@ padding-bottom:50px;
 .testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
   width: 20px;
   height: 20px;
+ 
 }
 /* ------testimonial  close-------*/
 
@@ -1103,3 +1102,4 @@ color: rgb(255, 255, 255);
     padding-right: 10px;
   }
 }
+
