@@ -396,7 +396,7 @@ align-items: center;
   position: relative;
   background: transparent;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   background-position:top;
       background-size: cover;
       background-color:rgb(202, 3, 103) ;
@@ -585,14 +585,10 @@ text-align: center;
   .image-section{
    
     columns: 1;
-   
-   
   }
   .film-section{
    
     columns: 1;
-   
-   
   }
 
 }
@@ -765,6 +761,7 @@ text-align: center;
   font-size: 23px;
   font-weight: 600;
   color: rgb(202, 3, 103);
+  margin-bottom: 5px;
 }
 .right-side .input-box{
   height: 50px;
@@ -808,6 +805,7 @@ text-align: center;
 .right-side p{
   text-align:justify;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 .button input[type="button"]:hover{
   background: rgb(202, 3, 103);
