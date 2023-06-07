@@ -1052,4 +1052,6 @@ color: rgb(255, 255, 255);
     padding-right: 10px;
   }
 }
-
+.fa-star{
+  color:  orange;
+}
