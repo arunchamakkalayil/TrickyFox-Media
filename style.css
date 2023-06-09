@@ -451,7 +451,6 @@ align-items: center;
   position: relative;
   background: transparent;
   padding-top: 10px;
-  padding-bottom: 5px;
   background-position:top;
       background-size: cover;
       background-color:rgb(202, 3, 103) ;
@@ -807,6 +806,7 @@ text-align: center;
 .content .left-side .details .text-two{
   font-size: 14px;
   color: #afafb6;
+  text-align: ;
 }
 .contact .content .right-side{
   width: 75%;
@@ -1009,6 +1009,7 @@ footer .copyright{
   padding:  8px 20px;
   color: rgb(202, 3, 103);
   border-radius: 8px;
+  background-color: white;
  
 }
 .form-btn:hover{
