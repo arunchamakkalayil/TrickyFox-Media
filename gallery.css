@@ -1,8 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -12,7 +14,7 @@ header{
     height: 50vh;
     width: 100%;
     
-    background-image:url(/images/AGP_2116.jpg)  ;
+    background-image:url(/images/gallery.webp)  ;
     background-size: cover;
     background-position:center;
  
@@ -206,7 +208,7 @@ align-items: center;
     }
 
     header{
-        background-image:url(/images/AGP_2116.jpg)
+        background-image:url(/images/gallery.webp)
     }
 }
 
