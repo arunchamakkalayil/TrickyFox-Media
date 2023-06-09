@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
 
 *{
     padding: 0;
@@ -9,6 +9,7 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+  
 }
 header{
 
@@ -338,6 +339,8 @@ align-items: center;
     padding:0;
     line-height:25px;
     font-size: 18px;
+    font-weight: 300;
+    
   }
   .image-container-gallery{
    
@@ -352,6 +355,7 @@ align-items: center;
     text-align: center;
     color: rgb(58, 57, 57);
     font-size: 18px;
+    font-weight: 300;
   }
   .image-section{
    column-gap: 10px;
@@ -387,6 +391,9 @@ align-items: center;
     text-align: center;
     color: rgb(58, 57, 57);
     font-size: 18px;
+    font-weight: 300;
+    
+    
   }
   .film-section{
     display: flex;
@@ -859,8 +866,9 @@ text-align: center;
 }
 .right-side p{
   text-align:justify;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 .button input[type="button"]:hover{
   background: rgb(202, 3, 103);
@@ -1093,6 +1101,8 @@ color: rgb(255, 255, 255);
 .content-alignment{
   padding-left: 100px;
   padding-right: 100px;
+  font-weight: 300;
+  font-size: 18px;
 }
 @media (max-width:824px){
   .content-alignment{

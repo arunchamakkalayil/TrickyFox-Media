@@ -123,19 +123,22 @@ align-items: center;
     
 
 }
+
 .title-container{
   text-align: center;
   padding-top: 50px;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 .title-container h1{
   font-size: 33px;
 }
-.title-container p{
-  font-size: 15px;
-}
 
+p{
+  font-size: 18px;
+  font-weight: 300;
+  
+}
 
 .dropdown_menu{
     position: absolute;
@@ -345,55 +348,9 @@ align-items: center;
   .media-links .fa-phone{
     transform: rotate(90deg);
   }
-  .image-container-gallery{
-   
-    width: 90%;
-    margin: auto;
-  }
+ 
 
-  .image-section{
-    column-gap: 10px;
-    columns: 3;
-    width :90%;
-    margin: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-   
-   
-    
-  }
-  .image-section img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 6px;
-  }
-  .grid-image {
-    display: inline-block;
-    margin-bottom: 4px;
-    position: relative;
-   
 
-  }
-  @media (max-width:900px){
-
-     
-     .image-section{
-     
-      columns: 2;
-     
-     
-    }
-  }
-  @media (max-width:600px){
-
-     
-    .image-section{
-    
-     columns: 1;
-    
-    
-   }
- }
  .fabs {
   position: fixed;
   right: 20px;
@@ -453,64 +410,7 @@ align-items: center;
 .btns.open {
   bottom: 50px;
 }
-.about-us{
-  display: flex;
-  align-items: center;
-  width: 85%;
-  margin: auto;
- 
-}
-.about-us img{
-  flex: 0 50%;
-  max-width: 50%;
-  height: auto;
-  border-radius: 50%;
-  padding: 75px;
- 
-}
-.about-content{
-  padding: 35px;
-}
-.about-content h2{
-color:rgb(255, 4, 129) ;
-font-size: 24px;
-margin:  5px 0px;
-}
-.about-content h3{
-  color: rgb(88, 88, 88);
-  font-size: 18px;
- margin-bottom: 20px;
-}
-.about-content p{
-  color: black;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 15px 0px;
- 
-}
-@media (max-width:768px){
-.about-us{
-  flex-direction: column;
 
-}
-.about-us img{
-  flex: 0 100%;
-  max-width: 100%;
-  padding: 5px;
-  padding-top: 25px;
-}
-.about-content{
-  margin: 10px 0px;
-  padding:18px ;
-}
-}
-@media (max-width:1050px){
-  .about-us img{
-    flex: 0 100%;
-  max-width: 60%;
-  }
-  
-}
 .wapp-icon{
 	position:fixed;
 	width:55px;
