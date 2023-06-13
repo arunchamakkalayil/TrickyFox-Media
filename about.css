@@ -462,4 +462,18 @@ color: rgb(255, 255, 255);
 }
 .container img{
   width: 100%;
+
+}
+
+#anish{
+  border-radius: 50%;
+}
+.bold{
+  font-size:xx-large;
+  font-weight: 500;
+  color: rgb(202, 3, 103);
+}
+.why-content{
+  width: 100%;
+  justify-content: center;
 }
