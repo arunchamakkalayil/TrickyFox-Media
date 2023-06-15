@@ -572,6 +572,10 @@ a {
 }
 .padding {
   padding-top: 15px;
+
+}
+.padding img{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .hero-banner {
@@ -924,4 +928,7 @@ footer .copyright {
 }
 .fa-star {
   color: orange;
+}
+.copyright a{
+  color: #939393;
 }

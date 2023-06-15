@@ -477,3 +477,13 @@ color: rgb(255, 255, 255);
   width: 100%;
   justify-content: center;
 }
+.why-content li{
+  list-style: disc;
+}
+
+.container b{
+ font-weight: bolder;
+}
+.copyright a{
+  color: #939393;
+}
