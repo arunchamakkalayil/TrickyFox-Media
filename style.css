@@ -575,11 +575,9 @@ a {
 
 }
 .padding img{
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
-.padding img:hover{
-  box-shadow: none;
-}
+
 .hero-banner {
   width: 85%;
   margin: auto;
