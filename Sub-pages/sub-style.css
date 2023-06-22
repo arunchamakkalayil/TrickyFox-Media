@@ -406,7 +406,7 @@ footer .copyright {
   
 }*/
 .blog-heading{
- font-size: 40px;
+ font-size: 35px;
 }
 @media (max-width: 900px) {
   .blog-heading{
@@ -417,10 +417,16 @@ footer .copyright {
 .blog-content{
 line-height: 1.5;
 font-size: 18px;
+font-weight: 300;
+
 
 
 
 } 
+.container-blog li{
+  list-style-type: disc;
+  
+}
 
 .left-right .blog-image{
   width: 100%;
@@ -442,7 +448,7 @@ padding: 5px 70px;
 }
 @media (max-width: 600px) {
   .blog-heading{
-    font-size: 25px;
+    font-size: 28px;
    }
    .recent-posts{
     font-size: 18px;
@@ -456,8 +462,9 @@ padding: 5px 70px;
     font-size: 16px;
    }
    .blog-heading{
-    font-size: 20px;
+    font-size: 23px;
    }
+   
 }
 @media (max-width: 330px) {
   .recent-posts{
@@ -485,12 +492,14 @@ padding: 5px 70px;
   width: 85%;
   display: flex;
   margin: auto;
+  padding-top: 100px;
+  
 }
 .recent-post-container{
   padding-top: 30px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+ 
   padding: 20px;
 }
 .recent-post-image{
@@ -502,6 +511,13 @@ padding: 5px 70px;
   display: flex;
 }
 
-.container li{
+.container ul li{
   list-style: disc;
+}
+.date{
+  color: #999;
+  font-size: 14px;
+}
+h4 a{
+  color:#000
 }

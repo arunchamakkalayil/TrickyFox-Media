@@ -14,7 +14,7 @@ header{
     height: 40vh;
     width: 100%;
     
-    background-image:url(/images/gallery.webp)  ;
+    background-image:url(/images/camera-trickyfox.webp)  ;
     background-size: cover;
     background-position:center;
  
@@ -205,7 +205,7 @@ align-items: center;
     }
 
     header{
-        background-image:url(/images/gallery.webp)
+        background-image:url(/images/camera-trickyfox.webp)
     }
 }
 
