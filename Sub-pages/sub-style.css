@@ -105,7 +105,6 @@ a {
   transition: 1s ease;
 }
 
-
 .dropdown_menu {
   position: absolute;
   right: 2rem;
@@ -113,7 +112,7 @@ a {
   height: 0;
   width: 300px;
   background: rgba(0, 0, 0, 0.127);
-    backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   border-radius: 18px;
   overflow: hidden;
   display: none;
@@ -179,7 +178,6 @@ a {
 }
 
 @media (max-width: 820px) {
-
   .footer-container {
     flex-wrap: wrap;
   }
@@ -276,7 +274,6 @@ footer .copyright {
   .image-section {
     columns: 2;
   }
-
 }
 @media (max-width: 600px) {
   .image-section {
@@ -405,119 +402,105 @@ footer .copyright {
   padding-right: 70px;
   
 }*/
-.blog-heading{
- font-size: 35px;
+.blog-heading {
+  font-size: 35px;
+  padding-bottom: 10px;
 }
 @media (max-width: 900px) {
-  .blog-heading{
+  .blog-heading {
     font-size: 30px;
-   }
+  }
 }
 
-.blog-content{
-line-height: 1.5;
-font-size: 18px;
-font-weight: 300;
-
-
-
-
-} 
-.container-blog li{
+.blog-content {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+}
+.container-blog li {
   list-style-type: disc;
-  
 }
 
-.left-right .blog-image{
+.left-right .blog-image {
   width: 100%;
- padding:20px 0px;
+  padding: 20px 0px;
 }
-.recent-posts{
-
+.recent-posts {
   text-align: center;
   font-size: 23px;
-padding: 5px 70px;
+  padding: 5px 70px;
   width: 100%;
   color: white;
   letter-spacing: 2px;
   background-color: rgb(202, 3, 103);
 }
-.recent-post h4{
+.recent-post h4 {
   font-size: 13px;
   color: #474747;
 }
 @media (max-width: 600px) {
-  .blog-heading{
+  .blog-heading {
     font-size: 28px;
-   }
-   .recent-posts{
+  }
+  .recent-posts {
     font-size: 18px;
-   }
-   .recent-post h4{
+  }
+  .recent-post h4 {
     font-size: 12px;
-   }
+  }
 }
 @media (max-width: 400px) {
-  .recent-posts{
+  .recent-posts {
     font-size: 16px;
-   }
-   .blog-heading{
+  }
+  .blog-heading {
     font-size: 23px;
-   }
-   
+  }
 }
 @media (max-width: 330px) {
-  .recent-posts{
+  .recent-posts {
     font-size: 14px;
-   }
-   .recent-post h4{
+  }
+  .recent-post h4 {
     font-size: 11px;
-   }
-   .blog-content{
+  }
+  .blog-content {
     font-size: 16px;
-   }
+  }
 }
 
-.left-right{
-
+.left-right {
   display: flex;
   margin: auto;
-  justify-content: space-between;
-
-
-
-
 }
-.container-blog{
-  width: 85%;
+.container-blog {
+  width: 75%;
   display: flex;
   margin: auto;
-  padding-top: 100px;
-  
+  padding-top: 40px;
 }
-.recent-post-container{
+.recent-post-container {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
- 
+
   padding: 20px;
 }
-.recent-post-image{
+.recent-post-image {
   width: 25%;
   padding-right: 10px;
-
 }
-.recent-post{
+.recent-post {
   display: flex;
 }
 
-.container ul li{
+.container ul li {
   list-style: disc;
 }
-.date{
+.date {
   color: #999;
   font-size: 14px;
 }
-h4 a{
-  color:#000
+h4 a {
+  color: #000;
 }

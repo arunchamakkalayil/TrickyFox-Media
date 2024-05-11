@@ -918,6 +918,30 @@ footer .copyright {
   font-weight: 300;
   font-size: 18px;
 }
+.connect-us{
+background: rgba(255, 56, 93, 0.076);
+  margin: auto;
+  border-radius: 20px;
+  
+    width:80%;
+   
+  }
+  .connect-us p{
+    color: #000000;
+    padding: 2rem;
+  
+  }
+  .connect-us .button{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    width: 8rem;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+  
+  
+   
+  }
 @media (max-width: 824px) {
   .content-alignment {
     padding-left: 50px;
@@ -928,6 +952,14 @@ footer .copyright {
   .content-alignment {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .connect-us{
+    width: 95%;
+  }
+  .connect-us p{
+    color: #000000;
+    padding: 1rem;
+  
   }
 }
 .fa-star {
